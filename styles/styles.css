@@ -79,3 +79,44 @@ nav > ul > li{
         flex-direction: column;
     }
 }
+
+
+/* main section styles */
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.tems-content-container{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.quick-list{
+    color: #727272;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.of-our{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.feature-under-span{
+    color: #ff900e;
+    font-size: 2.8rem;
+    font-weight: 700;
+
+}
+.teams-content-text{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
